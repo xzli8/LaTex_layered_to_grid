@@ -1,0 +1,37 @@
+#******************************************************************************#
+#*                                                                            *#
+#*                             LaTex_layered_to_grid                          *#
+#*                           =========================                        *#
+#*                                                                            *#
+#*                           The LaTex Program Package                        *#
+#*                                                                            *#
+#*                                  Xingzhong LI                              *#
+#*                        email: xzli8@mail.ustc.edu.cn                       *#
+#*             School of Earth and Space Sciences, USTC, China, 2018          *#
+#*                                                                            *#
+#*     A signed non-commercial agreement is required to use this program.     *#
+#*             Free for non-commercial academic research ONLY.                *#
+#*       This program is distributed WITHOUT ANY WARRANTY whatsoever.         *#
+#*       Do not redistribute this program without written permission.         *#
+#*                                                                            *#
+#******************************************************************************#
+
+1.Introduction
+    This package is used to generate the "Layered_to_grid.pdf", a document about
+    the package "Layered_to_grid_2D".
+
+2.Directory layout
+    1> Figures/ : this directory stored the figures used in the "*.tex" files
+    
+    2> Section/ : this directory stored each section of the "Layered_to_grid.tex"
+
+    3> Layered_to_grid.pdf : this is the PDF file we want to get
+
+    4> LaTex_layered_to_grid.tex : this is the source code of LaTex
+
+    5> Makefile : makefile for this package
+
+    6> readme : this file
+
+3.Useage
+    1> If you want get the PDF file, just type "make" in the terminal.
